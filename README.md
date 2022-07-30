@@ -4,4 +4,4 @@
 
 <p> Este aplicativo foi feito em javascript para rodar no node. </p>
 <p> Para rodar ele é muito simples, basta no terminal digitar "node index" no caso index é a pasta que está meu script, depois disso é só responder as perguntas. Divirta-se!! </p>
-<p> Ao final de cada dia use ele para descobrir o que aprendeu e o que você pode melorar.</p>
+<p> Ao final de cada dia use ele para descobrir o que aprendeu e o que você pode melhorar.</p>
