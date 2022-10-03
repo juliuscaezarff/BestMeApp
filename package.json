@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/juliuscaezarff/BestMeApp/issues"
   },
-  "homepage": "https://github.com/juliuscaezarff/BestMeApp#readme"
+  "homepage": "https://github.com/juliuscaezarff/BestMeApp#readme",
+  "dependencies": {
+    "chalk": "^5.0.1"
+  }
 }
