@@ -1,3 +1,5 @@
+const chalk = require('chalk');
+
 const questions = [
   "O que aprendi hoje?",
   "O que me deixou aborrecido? E o que eu poderia fazer para melhorar?",
@@ -23,7 +25,11 @@ process.stdin.on("data", data => {
 })
 
 process.on('exit', () => {
-  console.log(`
+  console.log()
+})
+
+/*
+ console.log(`
   Bacana julius!
 
   O que você aprendeu hoje foi:
@@ -39,4 +45,5 @@ process.on('exit', () => {
 
   Volte amanhã para novas reflexões
   `)
-})
+
+*/
