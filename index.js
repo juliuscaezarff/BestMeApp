@@ -1,4 +1,4 @@
-const chalk = require('chalk');
+import chalk from "chalk"
 
 const questions = [
   "O que aprendi hoje?",
@@ -25,25 +25,18 @@ process.stdin.on("data", data => {
 })
 
 process.on('exit', () => {
-  console.log()
+  console.log(chalk.bgBlue.black(`  O que você aprendeu hoje foi: ${answers[0]}`))
+
+  console.log(chalk.bgBlue.black(` O que você aprendeu hoje foi: ${chalk.bgGray.black (answers[0])}`))
+
+  console.log(chalk.bgBlue.black(`O que te aborreceu e você poderia melhorar foi: ${answers[1]}`))
+
+  console.log(chalk.bgBlue.black(` O que te deixou feliz hoje: ${answers[2]}`))
+
+  console.log(chalk.bgBlue.black(` Você ajudou ${answers[3]} pessoas hoje!!`))
 })
 
 /*
- console.log(`
   Bacana julius!
-
-  O que você aprendeu hoje foi:
-  ${answers[0]}
-
-  O que te aborreceu e você poderia melhorar foi:
-  ${answers[1]}
-
-  O que te deixou feliz hoje:
-  ${answers[2]}
-
-  Você ajudou ${answers[3]} pessoas hoje!!
-
   Volte amanhã para novas reflexões
-  `)
-
 */
