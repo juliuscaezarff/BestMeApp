@@ -25,15 +25,13 @@ process.stdin.on("data", data => {
 })
 
 process.on('exit', () => {
-  console.log(chalk.bgBlue.black(`  O que você aprendeu hoje foi: ${answers[0]}`))
+  console.log(chalk.bgBlue.black(`  O que você aprendeu hoje foi: ${chalk.bgGray.black (answers[0])}`))
 
-  console.log(chalk.bgBlue.black(` O que você aprendeu hoje foi: ${chalk.bgGray.black (answers[0])}`))
+  console.log(chalk.bgBlue.black(`O que te aborreceu e você poderia melhorar foi: ${chalk.bgGray.black (answers[1])}`))
 
-  console.log(chalk.bgBlue.black(`O que te aborreceu e você poderia melhorar foi: ${answers[1]}`))
+  console.log(chalk.bgBlue.black(` O que te deixou feliz hoje: ${chalk.bgGray.black (answers[2])}`))
 
-  console.log(chalk.bgBlue.black(` O que te deixou feliz hoje: ${answers[2]}`))
-
-  console.log(chalk.bgBlue.black(` Você ajudou ${answers[3]} pessoas hoje!!`))
+  console.log(chalk.bgBlue.black(` Você ajudou ${chalk.bgGray.black (answers[3])} pessoas hoje!!`))
 })
 
 /*
