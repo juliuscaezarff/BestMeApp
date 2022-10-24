@@ -37,7 +37,9 @@ process.on('exit', () => {
 
   console.log(`${chalk.bgGray.black (answers[2])}`)
 
-  console.log(chalk.bgBlue.black(` Você ajudou ${chalk.bgGray.black (answers[3])} pessoas hoje!!`))
+  console.log(chalk.bgBlue.black(` Você ajudou:`))
+
+  console.log(`${chalk.bgGray.black (answers[3])} pessoas hoje!!`)
 })
 
 /*
