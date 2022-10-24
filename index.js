@@ -25,7 +25,9 @@ process.stdin.on("data", data => {
 })
 
 process.on('exit', () => {
-  console.log(chalk.bgBlue.black(`  O que você aprendeu hoje foi: ${chalk.bgGray.black (answers[0])}`))
+  console.log(chalk.bgBlue.black(`  O que você aprendeu hoje foi: `))
+
+  console.log(`${chalk.bgGray.black (answers[0])}`)
 
   console.log(chalk.bgBlue.black(`O que te aborreceu e você poderia melhorar foi: ${chalk.bgGray.black (answers[1])}`))
 
