@@ -29,7 +29,9 @@ process.on('exit', () => {
 
   console.log(`${chalk.bgGray.black (answers[0])}`)
 
-  console.log(chalk.bgBlue.black(`O que te aborreceu e você poderia melhorar foi: ${chalk.bgGray.black (answers[1])}`))
+  console.log(chalk.bgBlue.black(`O que te aborreceu e você poderia melhorar foi:`))
+
+  console.log(`${chalk.bgGray.black (answers[1])}`)
 
   console.log(chalk.bgBlue.black(` O que te deixou feliz hoje: ${chalk.bgGray.black (answers[2])}`))
 
