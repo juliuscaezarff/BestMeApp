@@ -40,9 +40,6 @@ process.on('exit', () => {
   console.log(chalk.bgGray.white(` Você ajudou:`))
 
   console.log(chalk.bgCyan.black(`${(answers[3])} pessoas hoje!!`))
-})
 
-/*
-  Bacana julius!
-  Volte amanhã para novas reflexões
-*/
+  console.log(chalk.bgGray.white(' Bacana! Volte amanhã para novas reflexões'))
+})
