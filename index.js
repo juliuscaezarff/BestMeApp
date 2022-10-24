@@ -39,7 +39,7 @@ process.on('exit', () => {
 
   console.log(chalk.bgGray.white(` Você ajudou:`))
 
-  console.log(chalk.bgCyan.black(`${(answers[3])} pessoas hohe!!`))
+  console.log(chalk.bgCyan.black(`${(answers[3])} pessoas hoje!!`))
 })
 
 /*
